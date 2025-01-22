@@ -69,6 +69,8 @@ poetry poe start infer infer_config.file_path=american_bulldog_120.jpg
 
 МОдель разработана на фреймворке pytorch + pytorch-lightning. В качестве архитектуры с нуля выбрана сверточная нейронная сеть с 35 выходами (по количеству пород животных).
 
-Оптимизатор - Adam
-Лосс-функция - Кросс-энтропия
-Метрика качества: accuracy
+Оптимизатор - `Adam`
+
+Лосс-функция - `CrossEntropyLoss`
+
+Метрика качества: `accuracy`
