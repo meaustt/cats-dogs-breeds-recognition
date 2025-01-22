@@ -1,0 +1,6 @@
+outs:
+- md5: 3c2562f1556e9d81bf8d7a366932abab.dir
+  size: 79350829
+  nfiles: 9637
+  hash: md5
+  path: data
