@@ -33,8 +33,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    # немного замудрено, но требования в задании именно использовать
-    # commands.py. В продакшене лучше просто обойтись poetry poe
     if args.task == "train":
         subprocess.run(["poetry", "poe", "train"] + args.aux_args)
     elif args.task == "test":
